@@ -72,6 +72,7 @@ namespace Simple_Http_Server
                 buffer = File.ReadAllBytes("404.html");
                 statusCode = 404;
                 statusDescription = "Not Found";
+                response.ContentType = "text/html";
             }
 
             response.Headers["Server"] = "Simple Http Server ";
