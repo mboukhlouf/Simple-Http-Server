@@ -20,7 +20,7 @@ namespace Simple_Http_Server
             {
                 Prefixes = new String[]
                 {
-                    "http://localhost:7777"
+                    "http://localhost:7777/"
                 },
                 HtmlDirectory = "www"
             };
